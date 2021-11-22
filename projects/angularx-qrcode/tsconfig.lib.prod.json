@@ -2,6 +2,7 @@
 {
   "extends": "./tsconfig.lib.json",
   "angularCompilerOptions": {
-    "enableIvy": false
+    // https://angular.io/guide/creating-libraries#transitioning-libraries-to-partial-ivy-format
+    "compilationMode": "partial"
   }
 }
