@@ -13,7 +13,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build angularx-qrcode --configuration production",
-    "prepare": "npm run build",
     "test": "ng test",
     "lint": "ng lint",
     "prebuild": "rimraf dist tmp",
